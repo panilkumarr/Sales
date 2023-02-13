@@ -1,0 +1,22 @@
+<div class="wrapper">
+  <div class="logo">
+      <img src="https://cdn.imgbin.com/2/4/11/imgbin-sales-management-graph-of-a-function-marketing-5Zk4AZbxHvup8eN3hjPARDqHE.jpg" alt="">
+  </div>
+  <div class="text-center mt-4 name">
+      Alpha Sales
+  </div>
+  <form class="p-3 mt-3">
+      <div class="form-field d-flex align-items-center">
+          <span class="far fa-user"></span>
+          <input type="text" name="userName" id="userName" placeholder="Username" [(ngModel)]="Email">
+      </div>
+      <div class="form-field d-flex align-items-center">
+          <span class="fas fa-key"></span>
+          <input type="password" name="password" id="pwd" placeholder="Password" [(ngModel)]="password">
+      </div>
+      <button class="btn mt-3" (click)="login()">Login</button>
+  </form>
+  <div class="text-center fs-6">
+      <a href="#">Forget password?</a> or <a href="#"  >Sign up</a>
+  </div>
+</div>
